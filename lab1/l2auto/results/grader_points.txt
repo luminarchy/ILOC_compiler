@@ -1,0 +1,7 @@
+COMP 412, Lab 2 Autograder, Points by NetID
+Import into Excel with tab separators
+
+Netid	Name	Conforms	Correctness	Effectiveness	Date	Days Late
+BadReadme.tar	badRM	-10	30.0	20.0	2024-02-05	-2
+as331	Amy Suo	0	29.46	17.2	2024-10-29	5
+comp412	Comp 412	0	30.0	20.0	2024-02-11	-2

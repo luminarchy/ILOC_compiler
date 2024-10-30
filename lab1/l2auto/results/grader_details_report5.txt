@@ -1,0 +1,6 @@
+Comp 412, Lab 2, Results for block 'report5.i'
+Import into Excel with tab separators
+NetID	Name	3	4	5	6	8	12	16
+BadReadme.tar	badRM	56	46	38	36	30	30	30
+as331	Amy Suo	85	79	55	41	30	30	30
+comp412	Comp 412	56	46	38	36	30	30	30

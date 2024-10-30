@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+
+import datetime, os
+
+from datetime import datetime, date
+
+
+def main():
+
+    today = date.today()
+    time = datetime.now()
+
+    logname = "Timer-"+today.strftime("%m-%d-%y-") + time.strftime("%H-%M-%S") + '.log'
+
+    os.chdir('./TarFileGoesHere')
+    print('Running the auto-timer')
+
+    # need the "-u" option to make stdout and stderr unbuffered
+    # otherwise, the log file is jumbled
+    #
+    os.system('python3 -u ../auto_time/auto_time.py >& ../'+logname)
+    print('Timing run completes normally.')
+    
+if __name__ == "__main__":
+    main()

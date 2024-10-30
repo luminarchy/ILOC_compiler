@@ -1,0 +1,7 @@
+Lab 2 Autotimer Results
+Import into Excel with tab separators
+
+NetId	Name	T1k	T2k	T4k	T8k	T16k	T32k	T64k	T128k	Lang.	Scaling Pts	Eff Pts %
+BadReadme.tar	badRM	0.0105	0.0121	0.0153	0.0217	0.0349	0.0612	0.1151	0.2212	c 	 linear	10.0	10.0
+as331	Amy Suo	0.0957	0.1294	0.1273	0.2855	0.3002	0.6483	2.4236	5.5351	python 	 linear-w-1-jump anomaly	10.0	10.0	*
+comp412	Comp 412	0.0105	0.0115	0.0147	0.0209	0.0335	0.0604	0.1120	0.2166	c 	 linear	10.0	10.0

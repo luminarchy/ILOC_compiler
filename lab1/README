@@ -1,0 +1,35 @@
+//NAME: Amy Suo
+//NETID: as331
+
+
+tar cvf ../as331.tar ./412alloc ./Allocator.py ./IR.py ./lab2.py ./Parser.py ./Record.py ./Renamer.py ./Scanner_New.py ./README ./AllocatorNS.py 
+
+
+Comp 412 Fall 2024 semester lab 1:
+This project contains 5 python scripts and 1 executable (412fe). 
+My first submission uses a table-driven scanner and my second submission uses a hand-coded scanner. While the first submission does a slightly longer runtime, because of the table size, I do think that it is a very fun implementation. The second submission is much faster and makes use of match case to manually scan character. 
+
+
+    lab1.py: 412fe calls lab1. The main function parses command line arguments and looks for flags [-h, -s, -p, -r] and a file name. 
+        -h prints a help message
+        -s uses a while loop to read each read of the file and prints them in <token, lexeme> format 
+        -p scans and parses the file to find any errors
+        -r scans and parses the file and prints out the IR 
+
+    Scanner_New.py: uses match case to direct scan the file instead. Avoids building a large delta table.
+    
+    Scanner.py: A Scanner class to help with scanning. At initialization, a 30x37 delta transition table is built. The file is 
+    scanned through a line buffer that reads one line from the file at a time. Calling the scanNext() function on the Scanner
+    scans the next word in the buffer. 
+        Instead of storing a stack of previous states, the scanner instead stores a variable of the last accepting state. If 
+        the error state is reached without having encountered an accepting state, this variable is 0, and the scanner returns
+        an error. A counter is also used to count the number of characters read since the last accepting state, so that the scanner
+        can rollback. This is for time efficiency, since the traditional method uses a loop to rollback and also has to continuously
+        check the set of accepting states to see if the rollback has reached an accepting state. 
+    
+    Parser.py: A Parser class to help with parsing. The parse builds the IR, storing opcodes as indices in a list, where they 
+    can then be converting back into strings. 
+
+    IR.py: An IR class that uses a deque to have O(1) pushing and popping operations. 
+
+    Record.py: A record class that allocates a list of size 14 to be used as a single record in the IR. 

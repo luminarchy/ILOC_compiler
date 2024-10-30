@@ -1,0 +1,30 @@
+COMP 412, Fall 2023
+
+The lab2 autograder / autotimer is similar to the equivalent tools from lab1.
+
+TO MAKE THIS WORK IN YOUR DIRECTORY:
+
+1. Unpack the tar file. It will create a directory l2ag.
+2. Go into the l2ag/auto_grade directory.
+3. Edit auto_grade.py and change the setting of the variable "base_dir" 
+   so that it has the path name to the directory containing the RunGrader
+   script.  "base_dir" must end in a slash ("/").
+
+4. To run the autograder, place your tar archive file in the directory
+   TarFileGoesHere. Then, invoke the script "./Grader".  Results are
+   written into a log file whose name begins with "Timer-" and into 
+   the file "./results/Score.txt".
+
+5. To run the autotimer, place your tar archive file in the directory
+   TarFileGoesHere. Then, invoke the script "./Timer".  Results are 
+   written into a log file whose name begins with "Grader-" and into
+   the file "./results/TimerResults.txt"
+
+The files in the results directory are tab-separated and suitable for importing
+into your favorite spreadsheet program.
+
+-------------------------------
+If you include multiple tar archives, each will be scored.
+The "comp412" tar file in DefaultTarFiles/ uses lab2_ref.
+
+
