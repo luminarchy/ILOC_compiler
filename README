@@ -1,5 +1,4 @@
 //NAME: Amy Suo
-//NETID: as331
 
 To run full parsing and allocation: ./allocate [k] [filename]
     parse: parse calls ScanParse.py. The main function parses command line arguments and looks for flags [-h, -s, -p, -r] and a file name. 
