@@ -1,19 +1,3 @@
-//NAME: Yi Dai
-//NETID: yd9
-//SIM INPUT: -i 1024 1056 1052 1048 1044 1040 1036 1032 1028 1024
-//OUTPUT: 1032 1028 1024 1036 1056
-//
-// COMP 412, Lab 1, block "report7.i"
-//
-// This report block was submitted as a 
-// Lab 3 test block by Yi Dai in Fall 2014.
-//
-//
-// This block tests the intertwined memory operations that do or do not use/refer to the
-// same memory addresses. It also includes almost all important possible orderings among
-// load, store and output to test on. This is especially helpful when the
-// dependency graph has been simplified, user can test to see if the necessary edges are
-// there or if there are unnecessary edges.
 
 loadI 1024 => r1
 loadI 1028 => r2

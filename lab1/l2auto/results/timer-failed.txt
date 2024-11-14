@@ -1,4 +1,0 @@
-Lab 2 Autotimer Results
-List of NetIDs for labs that produced incorrect results
-
-Name	NetId

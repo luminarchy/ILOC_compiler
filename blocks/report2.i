@@ -1,18 +1,4 @@
-//NAME: John Cheng
-//NETID: jdc5
-//SIM INPUT:
-//OUTPUT: 1 3 6 10 15 21 28 36 45 55
 
-// COMP 412, Lab 1, block "report2.i"
-//
-// This report block was submitted as a Lab 1 
-// test block by John Cheng in Fall 2014.
-//
-
-//
-// Triangular number sequence
-//
-// Example usage: ./sim < report2.i
 //
 
         loadI   1 => r0

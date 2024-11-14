@@ -1,22 +1,4 @@
-//NAME: Nicholas Hanson-Holtry
-//NETID: nbh2
-//SIM INPUT: 
-//OUTPUT: 1 4 27 256 3125
 
-// COMP 412, Lab 1, block "report5.i"
-//
-// This report block was submitted as a Lab 1 test
-// block by Nicholas Hanson-Holtry in Fall 2014.
-//
-// Output Explanation: Compute n^n for n=1 through n=5.
-//
-// Allocator Test Goal: The allocator needs to be able
-// to recognize when it can rematerialize a value with the
-// immediate value it came from (ie, r1 through r5), and
-// when doing so isn't valid and it must instead spill the
-// calculated value to memory (ie, r22 through r25).
-//
-// Example Usage: ./sim < report5.i
 
 // the values of n
 loadI 1 => r1

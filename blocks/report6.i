@@ -1,16 +1,4 @@
-//NAME: Seth Lauer
-//NETID: sjl4
-//SIM INPUT: -i 2048 0 1 2 3 4 5 6 7 8 9
-//OUTPUT: 8 88 888 8888 88888 888888 8888888 88888888 888888888
-//
-// COMP 412, Lab 1, block "report6.i"
-//
-// This report block was submitted as a Lab 1 
-// test block by Seth Lauer in Fall 2014.
-//
-//ALGORITHM: Shows 0 * 9 + 8 = 8
-//                 9 * 9 + 7 = 88
-// 	          98 * 9 + 6 = 888...(continued)
+
 
 loadI 2048 => r0
 loadI 2052 => r1

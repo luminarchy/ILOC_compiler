@@ -1,30 +1,5 @@
-//NAME: Michael Peirce
-//NETID: msp5
-//SIM INPUT: -i 2048 5 6 8 9 0 7 8 9 5 7 8 9 6 5 4 3
-//OUTPUT: 60
-//
-// COMP 412, Lab 1, block "report3.i"
-//
-// This report block was submitted as a Lab 1 
-// test block by Michael Peirce in Fall 2014.
-//
-// Example usage: ./sim -i  2048 5 6 8 9 0 7 8 9 5 7 8 9 6 5 4 3 < report3.i
-//
-// This input would give the matrix:
-// 5 6 7 8
-// 0 7 8 9
-// 5 7 8 9
-// 6 5 4 3
-//
-// This program computes the determinant of a 4x4 matrix 
-//
-// Consider the input matrix to be like this:
-// a b c d
-// e f g h
-// i j k l
-// m n o p
-//
-// First we should load all the input
+
+
 loadI 2048 => r0
 load r0 => r0 // loading a
 loadI 2052 => r1

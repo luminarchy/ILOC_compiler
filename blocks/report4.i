@@ -1,15 +1,4 @@
-//NAME: Yun, Min Hong
-//NETID: my12
-//SIM INPUT: -i 128 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
-//OUTPUT: 183 164
-//
-// COMP 412, Lab 1, block "report4.i"
-//
-// This report block is a slightly altered version of a 
-// Lab 1 test block submitted by Min Hong Yun in Fall 2014.
-//
-//
-// Example usage: ./sim -i 128 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 < report4.i
+
 //
 loadI	128		=>	r1
 loadI	132		=>	r2

@@ -1,24 +1,6 @@
-//NAME: Jake Kornblau
-//NETID: jak6
-//SIM INPUT:
-//OUTPUT: 1 8 28 56 70 56 28 8 1
 
-// COMP 412, Lab 1, block "report1.i"
-//
-// This report block is a slightly altered version of a 
-// Lab 1 test block submitted by Jake Kornblau in Fall 2014.
-//
+loadI 1=>r0 
 
-// Calculates the first 9 rows of pascal's triangles
-
-//Initializes the 1s along the outside of the triangle
-loadI 1=>r0 //tests with no spaces on both sides of an operation
-
-//Initializes some registers for storing the last (9th) row of the
-//the triangle to memory to be output. The registers are allocated
-//now so that the live range is the entire program. Tests that
-//these values are the ones that are spilled since they have latest
-//uses.
 loadI 1024 => r1
 loadI 1028 => r2
 loadI 1032 => r3

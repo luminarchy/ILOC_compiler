@@ -1,6 +1,0 @@
-Comp 412, Lab 2, Results for block 'T001k.i'
-Import into Excel with tab separators
-NetID	Name	3	4	5	6	8	12	16
-BadReadme.tar	badRM	6876	6534	6204	5874	5214	3918	2622
-as331	Amy Suo	6876	6557	6244	5931	5305	4065	2837
-comp412	Comp 412	6876	6534	6204	5874	5214	3918	2622
